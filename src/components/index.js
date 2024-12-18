@@ -11,10 +11,12 @@ import SignUp from "./SignUp.jsx";
 import PostCard from './PostCard.jsx';        
 import PostForm from "./post-form/PostForm.jsx";
 import AuthLayout from "./AuthLayout.jsx";
+import Logo from "./Logo.jsx";
 
 export {
     Header, 
     Footer,
+    Logo,
     Container,
     LogoutBtn,
     Button,

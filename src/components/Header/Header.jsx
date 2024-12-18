@@ -1,7 +1,8 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import authService from "../../appwrite/auth.js";
-import { Container, LogoutBtn } from "../index";
+import { Container, Logo, LogoutBtn } from "../index";
+
 
 export default function Header() {
   const authStatus = useSelector((state) => state.auth.status);
